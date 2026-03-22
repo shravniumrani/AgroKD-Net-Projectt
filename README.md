@@ -237,5 +237,6 @@ Shravni Umrani
 - 📍 Vidyalankar Institute of Technology  
 - 💻 Passionate about AI & ML
 - Email: shravniumrani@gmail.com
+- GitHub: https://github.com/shravniumrani
 
 
