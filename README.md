@@ -22,6 +22,7 @@ AgroKD-Net-Project/
 git clone https://github.com/your-repo-link
 cd AgroKD-Net-Project
 pip install -r requirements.txt
+```
 ## 🧠 Model Details
 
 - Model Type: CNN based Classification  
@@ -118,7 +119,6 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 
 ### 📊 Performance Graph 2
 ![Graph 2](./Graph2.png)
-
 ## 🚀 Results Summary
 
 - Model successfully classifies crop vs weed images  
