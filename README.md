@@ -1,5 +1,5 @@
 # 🌱 AgroKD-Net: Efficient Crop & Weed Detection using Knowledge Distillation
-🚀 Lightweight AI solution for smart farming using deep learning
+🚀 A lightweight AI solution for crop and weed classification in smart agriculture
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![YOLO](https://img.shields.io/badge/YOLOv8-Detection-green)
@@ -8,9 +8,7 @@
 
 ---
 ## 🎯 Objective
-
-The goal of this project is to develop a lightweight and efficient model
-to classify crops and weeds from agricultural images, helping in automated farming solutions.
+The objective of this project is to build an efficient model that can distinguish crops and weeds from images, enabling automated decision-making in agriculture
 
 ## 📌 Overview
 
@@ -93,7 +91,7 @@ The model is optimized for real-time agricultural applications.
 - Task: Crop vs Weed classification/detection
 - Framework: TensorFlow / PyTorch
 - Input Size: 224×224
-- - The model is optimized for real-time inference with reduced computational cost.
+- The model is optimized for real-time inference with reduced computational cost.
 
 ### 📉 Loss Function
 - Binary Cross Entropy Loss
@@ -203,8 +201,8 @@ This model can be used in smart agriculture systems for automated weed detection
 
 1. Open notebook in Google Colab  
 2. Upload dataset  
-3. Run all cells step-by-step  
-4. Model will train and generate results  
+3. Run all cells sequentially
+4. Model will train and generate outputs
 
 👉 Colab Link:  https://colab.research.google.com/drive/1elVBfgaHhIq5umEBpOBnCwNPbzeI3Xel?usp=sharing
 ---
