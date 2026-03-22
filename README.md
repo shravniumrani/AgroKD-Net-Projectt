@@ -7,6 +7,38 @@
 
 ---
 
+## 📁 Project Structure
+
+AgroKD-Net-Project/
+│── data/
+│── notebooks/
+│── models/
+│── outputs/
+│── README.md
+
+## ⚙️ Setup
+
+```bash
+git clone https://github.com/your-repo-link
+cd AgroKD-Net-Project
+pip install -r requirements.txt
+## 🧠 Model Details
+
+- Model Type: CNN based Classification  
+- Task: Binary Classification (Crop vs Weed)  
+- Framework: TensorFlow / PyTorch  
+- Input Size: 224x224  
+
+### 📉 Loss Function
+- Binary Cross Entropy Loss used  
+
+### ⚙️ Optimizer
+- Adam Optimizer  
+
+### 📊 Training
+- Epochs: 20  
+- Batch Size: 32
+
 ## 📌 Overview
 AgroKD-Net is a lightweight object detection framework designed for real-time agricultural applications. It leverages Knowledge Distillation to transfer knowledge from a high-capacity YOLOv8 teacher model to a compact student model, improving efficiency without sacrificing accuracy.
 
@@ -55,6 +87,13 @@ The model is optimized for real-time agricultural applications.
 | AgroKD-Net | 0.87 | 0.90 | 0.89 | 160 |
 
 ---
+## 📊 Results Analysis
+
+- High accuracy achieved on validation dataset  
+- Low false negatives → better detection  
+- Model generalizes well  
+
+✔️ Suitable for real-time agriculture applications
 
 ## 📂 Dataset
 
