@@ -1,4 +1,5 @@
 # 🌱 AgroKD-Net: Efficient Crop & Weed Detection using Knowledge Distillation
+🚀 A lightweight AI solution for smart farming
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![YOLO](https://img.shields.io/badge/YOLOv8-Detection-green)
@@ -6,6 +7,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
+## 📌 Overview
+
+AgroKD-Net is a deep learning-based project designed to classify crops and weeds from agricultural images.
+
+It uses knowledge distillation concepts to build a lightweight yet efficient model suitable for real-time applications in smart farming.
 
 ## 📁 Project Structure
 
@@ -24,7 +30,7 @@ AgroKD-Net-Project/
 ## ⚙️ Setup
 
 ```bash
-git clone https://github.com/your-repo-link
+git clone https://github.com/shravniumrani/AgroKD-Net-Projectt
 cd AgroKD-Net-Project
 pip install -r requirements.txt
 ```
@@ -76,10 +82,11 @@ The model is optimized for real-time agricultural applications.
 ---
 ## 🧠 Model Details
 
-- Model Type: CNN-based / YOLO-inspired crop-weed detection
+- Model Type: Deep Learning (Knowledge Distillation based)
 - Task: Crop vs Weed classification/detection
 - Framework: TensorFlow / PyTorch
 - Input Size: 224×224
+- - The model is optimized for real-time inference with reduced computational cost.
 
 ### 📉 Loss Function
 - Binary Cross Entropy Loss
@@ -150,6 +157,7 @@ This dataset helps the model distinguish useful crop plants from unwanted weeds 
 
 ### 📊 Performance Graph 2
 ![Graph 2](./Graph2.png)
+The graphs show model performance across different evaluation metrics and confirm stable and consistent behavior.
 ## 🚀 Results Summary
 
 - Model successfully classifies crop vs weed images  
@@ -159,6 +167,7 @@ This dataset helps the model distinguish useful crop plants from unwanted weeds 
 
 📌 Final Model: AgroKDNet  
 📌 Type: Binary Classification
+This model can be used in smart agriculture systems for automated weed detection and crop monitoring.
 
 ## 📂 Files Included
 - Research Paper (PDF)
