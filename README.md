@@ -1,5 +1,5 @@
 # 🌱 AgroKD-Net: Efficient Crop & Weed Detection using Knowledge Distillation
-🚀 A lightweight AI solution for smart farming
+🚀 Lightweight AI solution for smart farming using deep learning
 
 ![Python](https://img.shields.io/badge/Python-3.8-blue)
 ![YOLO](https://img.shields.io/badge/YOLOv8-Detection-green)
@@ -7,6 +7,11 @@
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ---
+## 🎯 Objective
+
+The goal of this project is to develop a lightweight and efficient model
+to classify crops and weeds from agricultural images, helping in automated farming solutions.
+
 ## 📌 Overview
 
 AgroKD-Net is a deep learning-based project designed to classify crops and weeds from agricultural images.
@@ -38,10 +43,12 @@ Open the project notebook in Google Colab and run all cells sequentially.
 
 ## 🧠 Model Details
 
-- Model Type: CNN based Classification  
+- Model Type: Deep Learning (Knowledge Distillation Based)
 - Task: Binary Classification (Crop vs Weed)  
 - Framework: TensorFlow / PyTorch  
-- Input Size: 224x224  
+- Input Size: 224x224
+- - The model uses knowledge distillation concepts to improve efficiency
+- A lightweight model is trained to mimic a stronger model
 
 ### 📉 Loss Function
 - Binary Cross Entropy Loss used  
@@ -157,6 +164,13 @@ This dataset helps the model distinguish useful crop plants from unwanted weeds 
 
 ### 📊 Performance Graph 2
 ![Graph 2](./Graph2.png)
+### 📊 Output Explanation
+
+- Confusion Matrix shows classification accuracy  
+- Precision-Recall curve indicates model performance balance  
+- Graphs represent performance comparison across metrics  
+
+These results confirm that the model performs efficiently and reliably.
 The graphs show model performance across different evaluation metrics and confirm stable and consistent behavior.
 ## 🚀 Results Summary
 
@@ -185,7 +199,7 @@ This model can be used in smart agriculture systems for automated weed detection
 
 🚀 Designed for smart farming applications
 
-## ⚙️ How to Run
+## ⚙️ Usage
 
 1. Open notebook in Google Colab  
 2. Upload dataset  
@@ -195,10 +209,12 @@ This model can be used in smart agriculture systems for automated weed detection
 👉 Colab Link:  https://colab.research.google.com/drive/1elVBfgaHhIq5umEBpOBnCwNPbzeI3Xel?usp=sharing
 ---
 
-## 🎯 Applications
-- Smart Farming
-- Drone-based Monitoring
-- Automated Weed Control
+## 🌍 Applications
+
+- Smart agriculture systems  
+- Automated weed detection  
+- Precision farming  
+- AI-based crop monitoring
 
 ## 🔮 Future Improvements
 
@@ -212,6 +228,8 @@ This model can be used in smart agriculture systems for automated weed detection
 AgroKD-Net achieves a balance between accuracy and efficiency, making it suitable for real-time deployment in smart farming systems.
 
 It performs well compared to traditional object detection models while maintaining lower computational cost.
+This project demonstrates how AI can be effectively applied to agriculture
+for improving productivity and reducing manual effort.
 
 ## 👨‍💻 Author
 
