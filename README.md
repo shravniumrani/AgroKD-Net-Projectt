@@ -10,11 +10,16 @@
 ## 📁 Project Structure
 
 AgroKD-Net-Project/
-│── data/
-│── notebooks/
-│── models/
-│── outputs/
-│── README.md
+├── data/
+├── models/
+├── outputs/
+│   ├── confusion matrix.png
+│   ├── precision curve.png
+│   ├── Graph1.png
+│   └── Graph2.png
+├── notebooks/
+├── README.md
+└── AgroKD_Net_final.pdf
 
 ## ⚙️ Setup
 
@@ -23,6 +28,8 @@ git clone https://github.com/your-repo-link
 cd AgroKD-Net-Project
 pip install -r requirements.txt
 ```
+Open the project notebook in Google Colab and run all cells sequentially.
+
 ## 🧠 Model Details
 
 - Model Type: CNN based Classification  
@@ -62,10 +69,27 @@ The model is optimized for real-time agricultural applications.
 | Recall       | 94%  |
 | F1 Score     | 92%  |
 
-✔️ Model shows strong performance with balanced precision and recall.
-✔️ Low false negatives indicate good detection capability.
+✔️ The model shows balanced precision and recall.
+✔️ Low false negatives indicate strong detection capability.
+ 
 
 ---
+## 🧠 Model Details
+
+- Model Type: CNN-based / YOLO-inspired crop-weed detection
+- Task: Crop vs Weed classification/detection
+- Framework: TensorFlow / PyTorch
+- Input Size: 224×224
+
+### 📉 Loss Function
+- Binary Cross Entropy Loss
+
+### ⚙️ Optimizer
+- Adam Optimizer
+
+### ⏱️ Training
+- Epochs: 20
+- Batch Size: 32
 
 ## 🚀 Features
 - Real-time object detection
@@ -96,15 +120,22 @@ The model is optimized for real-time agricultural applications.
 
 ✔️ Suitable for real-time agriculture applications
 
+## 🚀 Results Summary
+
+- Model successfully distinguishes crop and weed images
+- High accuracy achieved with efficient inference
+- Lightweight design supports practical deployment
+- Suitable for smart agriculture applications
+
 ## 📂 Dataset
 
-The dataset consists of crop and weed images collected from agricultural fields.
+The dataset contains crop and weed images collected from agricultural fields.
 
 - Total Images: ~2000+
 - Classes: Crop, Weed
-- Data split: Train / Validation / Test
+- Split: Train / Validation / Test
 
-This dataset helps the model learn to distinguish between crops and unwanted weeds.
+This dataset helps the model distinguish useful crop plants from unwanted weeds under field-like conditions.
 
 ## 📷 Outputs
 
