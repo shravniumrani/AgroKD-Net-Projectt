@@ -89,17 +89,6 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 ### 📊 Performance Graph 2
 ![Graph 2](Graph2.png)
 
-### 📊 Model Comparison
-![Model Comparison](outputs/model_comparison.png)
-
-### 🔍 Qualitative Results
-![Detection Results](outputs/qualitative_results.png)
-
-### ⚖️ Teacher vs Student
-![Comparison](outputs/teacher_vs_student.png)
-
-## 🔬 Results Visualization
-
 | Graph 1 | Graph 2 |
 |--------|--------|
 | ![](Graph1.png) | ![](Graph2.png) |
