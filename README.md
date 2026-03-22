@@ -20,6 +20,18 @@ The AgroKD-Net model combines YOLO-based object detection with knowledge distill
 
 The model is optimized for real-time agricultural applications.
 
+## 📊 Model Performance Metrics
+
+| Metric        | Value |
+|--------------|------|
+| Accuracy     | 92%  |
+| Precision    | 90%  |
+| Recall       | 94%  |
+| F1 Score     | 92%  |
+
+✔️ Model shows strong performance with balanced precision and recall.
+✔️ Low false negatives indicate good detection capability.
+
 ---
 
 ## 🚀 Features
@@ -58,6 +70,15 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 
 ### 🧠 Confusion Matrix
 ![Confusion Matrix](confusion%20matrix.png)
+### 🔍 Confusion Matrix Explanation
+
+- True Positive (TP): 47 → Correctly predicted positive class  
+- True Negative (TN): 45 → Correctly predicted negative class  
+- False Positive (FP): 5 → Incorrect positive predictions  
+- False Negative (FN): 3 → Missed positive cases  
+
+👉 Model has low FN → Good for real-world detection  
+👉 Slight FP present → Can be improved with tuning
 
 ### 📈 Precision-Recall Curve
 ![PR Curve](precision%20curve.png)
@@ -82,6 +103,15 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 | Graph 1 | Graph 2 |
 |--------|--------|
 | ![](Graph1.png) | ![](Graph2.png) |
+## 🚀 Results Summary
+
+- Model successfully classifies crop vs weed images  
+- Achieved high accuracy with efficient performance  
+- Lightweight model suitable for real-time deployment  
+- Works well even with limited dataset  
+
+📌 Final Model: AgroKDNet  
+📌 Type: Binary Classification
 
 ## 📂 Files Included
 - Research Paper (PDF)
@@ -89,27 +119,24 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 - Result Images
 
 ---
+## 🌟 Key Highlights
 
-## 📌 Notebook (Implementation)
-Due to file size limitations, the full implementation is available here:
+- Deep Learning based classification model  
+- Efficient and lightweight architecture  
+- High accuracy with optimized training  
+- Real-time inference capability  
+- Suitable for agricultural automation  
 
-👉 https://colab.research.google.com/drive/1elVBfgaHhIq5umEBpOBnCwNPbzeI3Xel?usp=sharing
-
----
-
-## 🚀 Key Highlights
-
-- Lightweight YOLOv8-based student model
-- Knowledge Distillation for performance boost
-- Handles class imbalance in agricultural datasets
-- Real-time deployment ready
-- Supports quantization (FP32 → INT8)
+🚀 Designed for smart farming applications
 
 ## ⚙️ How to Run
-1. Open the Colab notebook
-2. Run all cells
-3. Model will perform detection
 
+1. Open notebook in Google Colab  
+2. Upload dataset  
+3. Run all cells step-by-step  
+4. Model will train and generate results  
+
+👉 Colab Link:  https://colab.research.google.com/drive/1elVBfgaHhIq5umEBpOBnCwNPbzeI3Xel?usp=sharing
 ---
 
 ## 🎯 Applications
@@ -117,16 +144,26 @@ Due to file size limitations, the full implementation is available here:
 - Drone-based Monitoring
 - Automated Weed Control
 
-## 📌 Future Work
+## 🔮 Future Improvements
 
-- Mobile deployment (Android/iOS)
-- Edge device optimization (Jetson Nano)
-- Real-time drone-based weed detection
+- Use larger dataset for better accuracy  
+- Apply advanced models (YOLO / CNN variants)  
+- Deploy as web or mobile app  
+- Improve real-time detection speed
 - 
 - ## 📌 Conclusion
 
 AgroKD-Net achieves a balance between accuracy and efficiency, making it suitable for real-time deployment in smart farming systems.
 
 It performs well compared to traditional object detection models while maintaining lower computational cost.
+
+## 👨‍💻 Author
+
+Shravni Umrani  
+
+- 🎓 TE Computer Engineering  
+- 📍 Vidyalankar Institute of Technology  
+- 💻 Passionate about AI & ML
+- Email: shravniumrani@gmail.com
 
 
