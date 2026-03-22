@@ -57,10 +57,16 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 ## 📷 Outputs
 
 ### 🧠 Confusion Matrix
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](confusion%20matrix.png)
 
 ### 📈 Precision-Recall Curve
-![PR Curve](outputs/precision_curve.png)
+![PR Curve](precision%20curve.png)
+
+### 📊 Performance Graph 1
+![Graph 1](Graph1.png)
+
+### 📊 Performance Graph 2
+![Graph 2](Graph2.png)
 
 ### 📊 Model Comparison
 ![Model Comparison](outputs/model_comparison.png)
@@ -73,9 +79,9 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 
 ## 🔬 Results Visualization
 
-| Teacher Model | Student Model |
-|--------------|--------------|
-| ![](outputs/teacher_vs_student.png) | ![](outputs/qualitative_results.png) |
+| Graph 1 | Graph 2 |
+|--------|--------|
+| ![](Graph1.png) | ![](Graph2.png) |
 
 ## 📂 Files Included
 - Research Paper (PDF)
