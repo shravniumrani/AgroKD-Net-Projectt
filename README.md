@@ -108,29 +108,17 @@ This dataset helps the model learn to distinguish between crops and unwanted wee
 ## 📷 Outputs
 
 ### 🧠 Confusion Matrix
-![Confusion Matrix](confusion%20matrix.png)
-### 🔍 Confusion Matrix Explanation
-
-- True Positive (TP): 47 → Correctly predicted positive class  
-- True Negative (TN): 45 → Correctly predicted negative class  
-- False Positive (FP): 5 → Incorrect positive predictions  
-- False Negative (FN): 3 → Missed positive cases  
-
-👉 Model has low FN → Good for real-world detection  
-👉 Slight FP present → Can be improved with tuning
+![Confusion Matrix](./confusion%20matrix.png)
 
 ### 📈 Precision-Recall Curve
-![PR Curve](precision%20curve.png)
+![PR Curve](./precision%20curve.png)
 
 ### 📊 Performance Graph 1
-![Graph 1](Graph1.png)
+![Graph 1](./Graph1.png)
 
 ### 📊 Performance Graph 2
-![Graph 2](Graph2.png)
+![Graph 2](./Graph2.png)
 
-| Graph 1 | Graph 2 |
-|--------|--------|
-| ![](Graph1.png) | ![](Graph2.png) |
 ## 🚀 Results Summary
 
 - Model successfully classifies crop vs weed images  
