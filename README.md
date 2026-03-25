@@ -113,17 +113,19 @@ The model is optimized for real-time agricultural applications.
 
 ## 📊 Results
 
-### 🔹 Model Comparison
-| Model | mAP | Precision | Recall | Inference Time (ms) |
-|------|-----|----------|--------|---------------------|
-| YOLOv5 | 0.82 | 0.85 | 0.83 | 150 |
-| YOLOv7 | 0.85 | 0.87 | 0.86 | 180 |
-| MobileNet-SSD | 0.78 | 0.80 | 0.79 | 210 |
-| EfficientDet | 0.86 | 0.88 | 0.87 | 220 |
-| Faster R-CNN | 0.88 | 0.89 | 0.88 | 600 |
-| AgroKD-Net | 0.87 | 0.90 | 0.89 | 160 |
+## Model Comparison
 
----
+| Model | Precision | Recall | mAP@0.5 | Inference Time (ms) |
+|-------|-----------|--------|---------|---------------------|
+| YOLOv5 | 0.76 | 0.77 | 0.78 | 150 |
+| YOLOv11-Nano | 0.69 | 0.65 | 0.66 | 145 |
+| YOLOv8-Nano | 0.68 | 0.64 | 0.65 | 150 |
+| YOLOv7-Tiny | 0.66 | 0.63 | 0.62 | 175 |
+| MobileNet-SSD | 0.63 | 0.60 | 0.58 | 210 |
+| EfficientDet-D0 | 0.67 | 0.64 | 0.65 | 200 |
+| Faster R-CNN | 0.69 | 0.67 | 0.59 | 340 |
+| AgroKD-Net (Proposed) | 0.90 | 0.89 | 0.87 | 150–160 |
+
 ## 📊 Results Analysis
 
 - High accuracy achieved on validation dataset  
